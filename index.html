@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width,initial-scale =1.0" />
+    <meta http-equiv="X-UA-Compatible" contents="ie=edge" />
+    <script src="babel.js"></script>
+    <script src="react.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <title> </title>
+</head>
+
+<body>
+    <div id="root"> </div>
+    <script>
+        class App extends React.Component {
+            render() {
+                return (React.createElement('div', null, React.createElement('h1', null, "Maryam Aslam")));
+            }
+        }
+        ReactDOM.render(
+            React.createElement(App, null), document.getElementById("root"));
+
+    </script>
+</body>
+
+</html>
